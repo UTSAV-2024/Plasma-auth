@@ -1,8 +1,16 @@
 {
   "stages": [
-    { "name": "Check Node Version10", "command": "node -v" },
-    { "name": "Install Dependencies", "command": "npm install" },
-    { "name": "Run Tests", "command": "npm test" }
-
+    {
+      "name": "Check Node Version10",
+      "command": "node -v"
+    },
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    },
+    {
+      "name": "Run Tests",
+      "command": "npm test"
+    }
   ]
 }
